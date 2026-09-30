@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kaizen</title>
+    <meta name="description" content="Kaizen is a personal Windows app for your calendar, to-dos, habits, goals, journal and notes." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ground: #f4f4f1;
+        --panel: #ffffff;
+        --ring: #e6e6e0;
+        --text: #1c1c1a;
+        --text-2: #54544e;
+        --accent: #3b8249;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--ground);
+        color: var(--text);
+        font: 16px/1.6 'Figtree', 'Segoe UI', system-ui, sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 48px auto;
+        padding: 36px 40px;
+        background: var(--panel);
+        border: 1px solid var(--ring);
+        border-radius: 18px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+      }
+      .mark {
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        background: var(--accent);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 30px;
+        letter-spacing: -0.01em;
+      }
+      h2 {
+        margin: 28px 0 6px;
+        font-size: 18px;
+      }
+      p,
+      li {
+        color: var(--text-2);
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--text);
+        font-weight: 600;
+      }
+      footer {
+        margin-top: 32px;
+        padding-top: 16px;
+        border-top: 1px solid var(--ring);
+        font-size: 14px;
+      }
+      @media (max-width: 720px) {
+        main {
+          margin: 16px;
+          padding: 24px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="25" height="25" fill="#fff">
+            <rect x="4.5" y="13" width="3.6" height="6.5" rx="1.2" />
+            <rect x="10.2" y="9" width="3.6" height="10.5" rx="1.2" />
+            <rect x="15.9" y="4.5" width="3.6" height="15" rx="1.2" />
+          </svg>
+        </span>
+        <h1>Kaizen</h1>
+      </header>
+      <p>A personal Windows app for your calendar, to-dos, habits, goals, journal and notes, built for one person's everyday use.</p>
+
+      <h2>What it does</h2>
+      <ul>
+        <li>A calendar with day, multi-day and month views, drag-to-create and life-area colours.</li>
+        <li>Two-way sync with your own Google Calendar, so events match on your phone and your PC. Outlook and Apple iCloud calendars are planned too.</li>
+        <li>To-dos and reminders, habit tracking, goals, a journal and notes.</li>
+      </ul>
+
+      <h2>How it uses your Google account</h2>
+      <p>
+        When you connect a Google account, Kaizen reads the list of your calendars and reads and edits the events on the calendars you choose, so your calendar looks the same in
+        Kaizen and on your other devices. It asks only for the permissions it needs to do that.
+      </p>
+
+      <h2>Where your data lives</h2>
+      <p>Kaizen runs entirely on your own PC. There is no Kaizen server, no account with Kaizen, no ads and no tracking. Your data goes only between your PC and the calendar services you connect.</p>
+
+      <footer><a href="privacy.html">Privacy policy</a></footer>
+    </main>
+  </body>
+</html>

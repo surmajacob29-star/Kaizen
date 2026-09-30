@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kaizen privacy policy</title>
+    <meta name="description" content="How Kaizen, a personal Windows app, handles your data and your Google Calendar data." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --ground: #f4f4f1;
+        --panel: #ffffff;
+        --ring: #e6e6e0;
+        --text: #1c1c1a;
+        --text-2: #54544e;
+        --accent: #3b8249;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--ground);
+        color: var(--text);
+        font: 16px/1.6 'Figtree', 'Segoe UI', system-ui, sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 48px auto;
+        padding: 36px 40px;
+        background: var(--panel);
+        border: 1px solid var(--ring);
+        border-radius: 18px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .mark {
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        background: var(--accent);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      h1 {
+        margin: 0;
+        font-size: 28px;
+        letter-spacing: -0.01em;
+      }
+      .date {
+        margin: 6px 0 0;
+        font-size: 14px;
+      }
+      h2 {
+        margin: 28px 0 6px;
+        font-size: 18px;
+      }
+      p,
+      li {
+        color: var(--text-2);
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--text);
+        font-weight: 600;
+      }
+      code {
+        font-size: 14px;
+        overflow-wrap: anywhere;
+      }
+      footer {
+        margin-top: 32px;
+        padding-top: 16px;
+        border-top: 1px solid var(--ring);
+        font-size: 14px;
+      }
+      @media (max-width: 720px) {
+        main {
+          margin: 16px;
+          padding: 24px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="25" height="25" fill="#fff">
+            <rect x="4.5" y="13" width="3.6" height="6.5" rx="1.2" />
+            <rect x="10.2" y="9" width="3.6" height="10.5" rx="1.2" />
+            <rect x="15.9" y="4.5" width="3.6" height="15" rx="1.2" />
+          </svg>
+        </span>
+        <h1>Kaizen privacy policy</h1>
+      </header>
+      <p class="date">Last updated September 30, 2026</p>
+
+      <h2>The short version</h2>
+      <p>
+        Kaizen is a personal Windows app that runs entirely on your own PC. There is no Kaizen server, and the person who made Kaizen never receives your data. Your information
+        goes only between your PC and the calendar services you choose to connect.
+      </p>
+
+      <h2>Google user data Kaizen accesses</h2>
+      <p>If you connect a Google account, Kaizen asks Google for two permissions:</p>
+      <ul>
+        <li><strong>See the list of calendars you're subscribed to</strong> (<code>calendar.calendarlist.readonly</code>): calendar names and colours, so you can choose which ones to show.</li>
+        <li>
+          <strong>View and edit events on your calendars</strong> (<code>calendar.events</code>): event titles, times, locations, descriptions and repeat rules on the calendars
+          you choose.
+        </li>
+      </ul>
+
+      <h2>How Kaizen uses that data</h2>
+      <p>
+        Only to show your calendars inside Kaizen and keep them in sync in both directions. Events you create, change or delete in Kaizen are sent to Google so they match on your
+        other devices, and changes made elsewhere are brought into Kaizen. Kaizen does not use your data for anything else.
+      </p>
+
+      <h2>Where it is stored</h2>
+      <ul>
+        <li>A copy of your synced calendars and events is kept in Kaizen's database on your PC, so the app works offline.</li>
+        <li>Your Google sign-in is stored in Windows Credential Manager on your PC. Kaizen never sees or stores your Google password.</li>
+        <li>Kaizen's automatic backups of its database stay on your PC, or in a second folder that you choose.</li>
+      </ul>
+
+      <h2>Sharing</h2>
+      <p>
+        Kaizen does not sell, share or transfer your data to anyone. There are no ads, no analytics and no tracking, and your data is not used to train AI models. Data is sent only
+        to Google (and, if you connect them, Microsoft or Apple) to sync your own calendars.
+      </p>
+      <p>
+        Kaizen's use and transfer of information received from Google APIs adheres to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.
+      </p>
+
+      <h2>Removing your data</h2>
+      <ul>
+        <li>Disconnecting an account in Kaizen's settings removes that account's calendars and events from Kaizen. The originals stay in your Google Calendar.</li>
+        <li>You can also revoke Kaizen's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+        <li>Uninstalling Kaizen and deleting its data folder removes everything it stored on your PC.</li>
+      </ul>
+
+      <h2>Other calendar services</h2>
+      <p>If you connect an Outlook (Microsoft) or Apple iCloud calendar, the same rules apply: the data is used only to show and sync your own calendars, and stays on your PC.</p>
+
+      <h2>Changes and questions</h2>
+      <p>
+        If this policy changes, the new version will be posted on this page with a new date. Questions can be sent to the support email address shown on Kaizen's Google sign-in
+        screen.
+      </p>
+
+      <footer><a href="./">Kaizen home</a></footer>
+    </main>
+  </body>
+</html>
